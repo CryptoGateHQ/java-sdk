@@ -55,7 +55,7 @@ import live.cryptogate.sdk.JSON;
 /**
  * CreateTransactionRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-06-27T16:11:57.320760693Z[Etc/UTC]", comments = "Generator version: 7.10.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-06-27T17:50:21.664603656Z[Etc/UTC]", comments = "Generator version: 7.10.0")
 public class CreateTransactionRequest {
   public static final String SERIALIZED_NAME_CRYPTO = "crypto";
   @SerializedName(SERIALIZED_NAME_CRYPTO)
