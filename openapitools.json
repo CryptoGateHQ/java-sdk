@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.10.0",
+    "generators": {
+      "v1": {
+        "generatorName": "java",
+        "inputSpec": "openapi.yaml",
+        "output": ".",
+        "additionalProperties": { "groupId": "live.cryptogate", "artifactId": "cryptogate-java-sdk", "artifactVersion": "0.1.0", "library": "okhttp-gson", "invokerPackage": "live.cryptogate.sdk", "apiPackage": "live.cryptogate.sdk.api", "modelPackage": "live.cryptogate.sdk.model" }
+      }
+    }
+  }
+}
