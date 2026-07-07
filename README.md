@@ -1,15 +1,15 @@
-# CryptoGate SDK (java-sdk)
+# GriffNode SDK (java-sdk)
 
-Official SDK for the [CryptoGate](https://cryptogate.live) crypto-payments API —
+Official SDK for the [GriffNode](https://griffnode.com) crypto-payments API —
 accept Bitcoin, Ethereum, Litecoin, Dogecoin, Dash and ERC-20 tokens straight to your
 own wallet.
 
 ```
-implementation 'live.cryptogate:cryptogate-java-sdk:0.1.0'
+implementation 'com.griffnode:griffnode-java-sdk:0.1.0'
 ```
 
-- **API reference:** https://docs.cryptogate.live/reference
-- **OpenAPI spec:** https://docs.cryptogate.live/openapi.yaml
+- **API reference:** https://docs.griffnode.com/reference
+- **OpenAPI spec:** https://docs.griffnode.com/openapi.yaml
 - **Generated from** `openapi.yaml` with [OpenAPI Generator](https://openapi-generator.tech)
   (`java`) — see `.github/workflows/generate.yml`. Do not hand-edit generated files.
 

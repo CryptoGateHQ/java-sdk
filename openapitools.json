@@ -8,7 +8,7 @@
         "generatorName": "java",
         "inputSpec": "openapi.yaml",
         "output": ".",
-        "additionalProperties": { "groupId": "live.cryptogate", "artifactId": "cryptogate-java-sdk", "artifactVersion": "0.1.0", "library": "okhttp-gson", "invokerPackage": "live.cryptogate.sdk", "apiPackage": "live.cryptogate.sdk.api", "modelPackage": "live.cryptogate.sdk.model" }
+        "additionalProperties": { "groupId": "com.griffnode", "artifactId": "griffnode-java-sdk", "artifactVersion": "0.1.0", "library": "okhttp-gson", "invokerPackage": "com.griffnode.sdk", "apiPackage": "com.griffnode.sdk.api", "modelPackage": "com.griffnode.sdk.model" }
       }
     }
   }

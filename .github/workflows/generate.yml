@@ -17,7 +17,7 @@ jobs:
             openapitools/openapi-generator-cli:v7.10.0 \
             generate -i /local/openapi.yaml -g java -o /local \
             --skip-validate-spec \
-            --additional-properties=groupId=live.cryptogate,artifactId=cryptogate-java-sdk,artifactVersion=0.1.0,library=okhttp-gson,invokerPackage=live.cryptogate.sdk,apiPackage=live.cryptogate.sdk.api,modelPackage=live.cryptogate.sdk.model
+            --additional-properties=groupId=com.griffnode,artifactId=griffnode-java-sdk,artifactVersion=0.1.0,library=okhttp-gson,invokerPackage=com.griffnode.sdk,apiPackage=com.griffnode.sdk.api,modelPackage=com.griffnode.sdk.model
       - name: Commit regenerated SDK
         run: |
           git config user.name  "github-actions[bot]"
