@@ -1,6 +1,6 @@
 # TransactionsApi
 
-All URIs are relative to *https://api.cryptogate.live/v1*
+All URIs are relative to *https://api.griffnode.com/v1*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
@@ -19,17 +19,17 @@ Create an itemized transaction (Professional/Enterprise plans)
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.TransactionsApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.TransactionsApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");
@@ -91,17 +91,17 @@ Create a payment transaction
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.TransactionsApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.TransactionsApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");
@@ -164,17 +164,17 @@ Retrieve a single transaction
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.TransactionsApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.TransactionsApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");
@@ -232,17 +232,17 @@ List the merchant&#39;s transactions (newest first)
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.TransactionsApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.TransactionsApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");

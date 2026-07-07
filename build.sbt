@@ -1,7 +1,7 @@
 lazy val root = (project in file(".")).
   settings(
-    organization := "live.cryptogate",
-    name := "cryptogate-java-sdk",
+    organization := "com.griffnode",
+    name := "griffnode-java-sdk",
     version := "0.1.0",
     scalaVersion := "2.11.4",
     scalacOptions ++= Seq("-feature"),

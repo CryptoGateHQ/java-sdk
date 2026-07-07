@@ -1,13 +1,13 @@
 # AccountApi
 
-All URIs are relative to *https://api.cryptogate.live/v1*
+All URIs are relative to *https://api.griffnode.com/v1*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
 | [**getAccount**](AccountApi.md#getAccount) | **GET** /account | Merchant plan, usage and limits |
 | [**getStats**](AccountApi.md#getStats) | **GET** /stats | Merchant transaction analytics |
 | [**listBalances**](AccountApi.md#listBalances) | **GET** /balances | On-platform balances (for overage/top-up; NOT crypto settlement) |
-| [**listInvoices**](AccountApi.md#listInvoices) | **GET** /invoices | CryptoGate billing invoices (platform ↔ merchant) |
+| [**listInvoices**](AccountApi.md#listInvoices) | **GET** /invoices | GriffNode billing invoices (platform ↔ merchant) |
 | [**listPlans**](AccountApi.md#listPlans) | **GET** /plans | Plan catalogue and pricing |
 
 
@@ -20,17 +20,17 @@ Merchant plan, usage and limits
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.AccountApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.AccountApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");
@@ -83,17 +83,17 @@ Merchant transaction analytics
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.AccountApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.AccountApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");
@@ -146,17 +146,17 @@ On-platform balances (for overage/top-up; NOT crypto settlement)
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.AccountApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.AccountApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");
@@ -204,22 +204,22 @@ This endpoint does not need any parameter.
 # **listInvoices**
 > ListInvoices200Response listInvoices(limit, offset)
 
-CryptoGate billing invoices (platform ↔ merchant)
+GriffNode billing invoices (platform ↔ merchant)
 
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.AccountApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.AccountApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");
@@ -278,17 +278,17 @@ Plan catalogue and pricing
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.auth.*;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.AccountApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.auth.*;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.AccountApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
     
     // Configure HTTP bearer authorization: SecretKey
     HttpBearerAuth SecretKey = (HttpBearerAuth) defaultClient.getAuthentication("SecretKey");

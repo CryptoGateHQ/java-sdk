@@ -1,6 +1,6 @@
 # SystemApi
 
-All URIs are relative to *https://api.cryptogate.live/v1*
+All URIs are relative to *https://api.griffnode.com/v1*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
@@ -17,16 +17,16 @@ API health check
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.SystemApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.SystemApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
 
     SystemApi apiInstance = new SystemApi(defaultClient);
     try {
@@ -75,16 +75,16 @@ Browser-facing redirect to the hosted payment page, authenticated by a **publish
 ### Example
 ```java
 // Import classes:
-import live.cryptogate.sdk.ApiClient;
-import live.cryptogate.sdk.ApiException;
-import live.cryptogate.sdk.Configuration;
-import live.cryptogate.sdk.models.*;
-import live.cryptogate.sdk.api.SystemApi;
+import com.griffnode.sdk.ApiClient;
+import com.griffnode.sdk.ApiException;
+import com.griffnode.sdk.Configuration;
+import com.griffnode.sdk.models.*;
+import com.griffnode.sdk.api.SystemApi;
 
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("https://api.cryptogate.live/v1");
+    defaultClient.setBasePath("https://api.griffnode.com/v1");
 
     SystemApi apiInstance = new SystemApi(defaultClient);
     String pk = "pk_example"; // String | Publishable key, pk_live_… / pk_test_…
@@ -129,6 +129,6 @@ No authorization required
 ### HTTP response details
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
-| **302** | Redirect to https://cryptogate.live/transaction/{transaction_id} |  -  |
+| **302** | Redirect to https://griffnode.com/transaction/{transaction_id} |  -  |
 | **400** | Validation error (INVALID_REQUEST, INVALID_CRYPTO, INVALID_AMOUNT, AMOUNT_TOO_LOW, INVALID_CURRENCY, INVALID_METADATA, WALLET_NOT_CONFIGURED, MISSING_ITEMS, MISSING_ORDER_ID, …). |  -  |
 
